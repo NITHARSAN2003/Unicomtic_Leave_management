@@ -10,13 +10,13 @@
       "doj": "2024-09-04"
     },
     {
-      "id": "EMP_bVIoj",
-      "employeeId": "EMP_bVIoj",
-      "nic": "200305110150",
-      "firstName": "Nitharsan",
-      "lastName": "Nithan",
-      "dob": "2003-09-09",
-      "doj": "2024-10-16"
+      "id": "EMP_4SK8Q",
+      "employeeId": "EMP_4SK8Q",
+      "nic": "723451278V",
+      "firstName": "Nelson",
+      "lastName": "Mandella",
+      "dob": "1972-12-05",
+      "doj": "2024-09-01"
     }
   ],
   "users": [
@@ -28,32 +28,52 @@
       "role": "Employee"
     },
     {
-      "username": "EMP_bVIoj",
-      "password": "Nithan@2003",
-      "role": "Manager",
-      "employeeId": "EMP_bVIoj",
-      "id": "EMP_bVIoj"
+      "id": "EMP_4SK8Q",
+      "employeeId": "EMP_4SK8Q",
+      "username": "EMP_4SK8Q",
+      "password": "pwd123",
+      "role": "Employee"
     }
   ],
   "leaveRequests": [
     {
-      "id": "e491",
-      "reason": "trip",
-      "dateFrom": "2024-09-12",
+      "id": "0553",
+      "employeeId": "EMP_4SK8Q",
+      "reason": "Trip",
+      "dateFrom": "2024-11-06",
       "numOfDays": "2",
-      "applicationDate": "2024-09-06",
+      "applicationDate": "2024-11-04",
       "status": "Approved",
-      "processedDate": "2024-09-05"
+      "employee": {
+        "id": "EMP_4SK8Q",
+        "employeeId": "EMP_4SK8Q",
+        "nic": "723451278V",
+        "firstName": "Nelson",
+        "lastName": "Mandella",
+        "dob": "1972-12-05",
+        "doj": "2024-09-01"
+      },
+      "processedDate": "2024-11-08"
     },
     {
-      "id": "a86b",
-      "reason": "party",
-      "dateFrom": "2024-09-17",
-      "numOfDays": "1",
-      "applicationDate": "2024-09-06",
+      "id": "36fb",
+      "employeeId": "EMP_Dy4kP",
+      "reason": "Wedding",
+      "dateFrom": "2024-11-12",
+      "numOfDays": "03",
+      "applicationDate": "2024-11-05",
       "status": "Rejected",
-      "processedDate": "2024-09-05",
-      "rejectionReason": "cant allow"
+      "employee": {
+        "id": "EMP_Dy4kP",
+        "employeeId": "EMP_Dy4kP",
+        "nic": "92312212V",
+        "firstName": "Jerobert",
+        "lastName": "zachariah",
+        "dob": "2015-01-06",
+        "doj": "2024-09-04"
+      },
+      "processedDate": "2024-11-08",
+      "rejectionReason": "no leave\n"
     }
   ]
 }
