@@ -17,6 +17,15 @@
       "lastName": "Mandella",
       "dob": "1972-12-05",
       "doj": "2024-09-01"
+    },
+    {
+      "id": "EMP_73axy",
+      "employeeId": "EMP_73axy",
+      "nic": "200305110150",
+      "firstName": "Nitharsan",
+      "lastName": "Nitharsan",
+      "dob": "2003-02-20",
+      "doj": "2024-11-05"
     }
   ],
   "users": [
@@ -33,6 +42,13 @@
       "username": "EMP_4SK8Q",
       "password": "pwd123",
       "role": "Employee"
+    },
+    {
+      "username": "EMP_73axy",
+      "password": "pwd123",
+      "role": "Admin",
+      "employeeId": "EMP_73axy",
+      "id": "EMP_73axy"
     }
   ],
   "leaveRequests": [
